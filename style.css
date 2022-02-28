@@ -140,6 +140,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+.sec-three-text {
+  width: 100%;
+}
 #quote {
   display: flex;
   justify-content: center;
@@ -147,9 +150,53 @@ button {
   font-size: 40px;
 }
 #q-author {
-  width: 100%;
   margin-top: 10px;
+  margin-right: 20%;
+  text-align: end;
+}
+
+.section-four {
+  min-height: 40vh;
   display: flex;
   justify-content: center;
-  padding-left: 40%;
+  align-items: center;
+}
+.hero {
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 20px;
+  height: auto;
+  width: auto;
+  padding: 2% 8%;
+  gap: 40px;
+}
+.hero-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 2;
+  color: white;
+  width: 100%;
+}
+
+.hero-txt h3 {
+  padding-bottom: 5px;
+}
+.hero-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+.btn-su {
+  border: 2px solid white;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+.btn-su:hover {
+  background-color: white;
+  color: #3882f6;
 }
