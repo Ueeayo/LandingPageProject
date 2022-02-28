@@ -82,3 +82,74 @@ button {
   color: white;
   border: none;
 }
+
+.section-two {
+  height: 50vh;
+  text-align: center;
+}
+
+.section-two h2 {
+  padding-top: 2%;
+}
+
+.card-generic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2%;
+  height: 100%;
+
+  margin: 0 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
+
+.trip-logo {
+  height: 80px;
+  width: 90px;
+}
+
+.card-txt {
+  margin-top: 10%;
+  width: 150px;
+  display: flex;
+  height: 100%;
+  font-size: 14px;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#quote {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 40px;
+}
+#q-author {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40%;
+}
